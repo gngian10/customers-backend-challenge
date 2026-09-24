@@ -5,9 +5,7 @@ import com.customers.dto.CustomerResponse;
 import com.customers.entity.Customer;
 import com.customers.exception.DuplicateCustomerException;
 import com.customers.repository.CustomerRepository;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.time.LocalDateTime;
 
